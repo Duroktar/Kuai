@@ -1,49 +1,40 @@
-====
 Kuài
 ====
 
-*/Ku·ài/* Fast, swift, swiftness, sharp, to be satisfied, 
-quick, rapid, rapidness, to hurry up..
+*/Ku·ài/* Fast, swift, swiftness, sharp, to be satisfied, quick, rapid,
+rapidness, to hurry up..
 
 .. image:: https://img.shields.io/pypi/v/kuai.svg
-        :target: https://pypi.python.org/pypi/kuai
+    :target: https://pypi.python.org/pypi/kuai
 
 .. image:: https://img.shields.io/travis/Duroktar/kuai.svg
-        :target: https://travis-ci.org/Duroktar/kuai
-
-.. image:: https://readthedocs.org/projects/kuai/badge/?version=latest
-        :target: https://kuai.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
-
-.. image:: https://pyup.io/repos/github/Duroktar/kuai/shield.svg
-     :target: https://pyup.io/repos/github/Duroktar/kuai/
-     :alt: Updates
-
+    :target: https://travis-ci.org/Duroktar/kuai
 
 Simple & fast event library.
 
-
-* Free software: MIT license
-* Documentation: https://kuai.readthedocs.io.
+-  Free software: MIT license
+-  Documentation: http://pythonhosted.org/Kuai/
 
 
 Install
 -------
 
-*Not on pip yet, install dev mode*
+.. code-block:: python
+
+    pip install Kuai --user
 
 
 Develop
 -------
 
-.. code-block:: bash
+.. code-block::
 
     clone https://github.com/Duroktar/Kuai.git
     cd Kuai
     pip install -e .
 
 
-Kuài is Fast
+Kuai is Fast
 ------------
 
 Save in a hello.py:
@@ -58,16 +49,13 @@ Save in a hello.py:
     Kuai.on('hello-world', hello)
     Kuai.emit('hello-world', 'Kuài')
 
-It's as easy as
+It’s as easy as
 
-.. code-block:: bash
+.. code-block::
 
     $ pip install Kuai
     $ python hello.py
      Hello, Kuài!
-
-
-.. include:: ./CONTRIBUTING.rst
 
 
 License
@@ -82,16 +70,10 @@ Author
 Scott Doucet / Duroktar / traBpUkciP
 
 
-Features
---------
+History
+=======
 
-* TODO
+0.1.0 (2017-06-08)
+------------------
 
-Credits
----------
-
-This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
-
-.. _Cookiecutter: https://github.com/audreyr/cookiecutter
-.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
-
+-  First release on PyPI.
