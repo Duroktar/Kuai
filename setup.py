@@ -18,7 +18,7 @@ with open('requirements_dev.txt') as test_requirements:
 
 setup(
     name='Kuai',
-    version='0.1.0',
+    version='0.1.1',
     description="Simple & fast event library. MIT licensed",
     long_description=readme + '\n\n' + history,
     author="Scott Doucet",
