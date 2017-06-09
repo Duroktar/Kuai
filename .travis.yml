@@ -23,7 +23,7 @@ deploy:
     tags: true
 env:
  - TOXENV=py35
-install: pip install -r requirements_dev.txt -U tox
+install: pip install -r requirements_dev.txt -U
 language: python
 python: 3.5
 script: tox -e ${TOXENV}
