@@ -76,19 +76,3 @@ Contributors
 Thank you to anyone who has helped contribute to Kuai in one form or another. If you submit any PR's don't forget to add your name to the list!
 
 xmonader - PR #2 Cleaned up handler definition
-
-
-History
-=======
-
-0.1.1 (2017-06-09)
-------------------
-
-* added backend 'signal'
-* improved docs
-* PR #2 closed
-
-0.1.0 (2017-06-08)
-------------------
-
--  First release on PyPI.
