@@ -16,7 +16,7 @@ class Kuai(metaclass=Singleton):
 
     @classmethod
     def on(cls, event, callback, *args, **kwargs):
-        Manager.backend.addHandler(event, callback, *args, **kwargs)
+        return Manager.backend.addHandler(event, callback, *args, **kwargs)
 
     @classmethod
     def emit(cls, event, *args, **kwargs):

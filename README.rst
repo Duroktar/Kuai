@@ -81,6 +81,13 @@ xmonader - PR #2 Cleaned up handler definition
 History
 =======
 
+0.1.1 (2017-06-09)
+------------------
+
+* added backend 'signal'
+* improved docs
+* PR #2 closed
+
 0.1.0 (2017-06-08)
 ------------------
 
