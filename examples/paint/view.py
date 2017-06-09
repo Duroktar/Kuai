@@ -21,22 +21,18 @@ class View:
         pygame.display.update()
 
     def draw_circle(self, color, x, y, radius, width=0):
-        print("Draw circle!")
         pygame.draw.circle(self.screen, color, (x, y), radius, width)
         Kuai.emit('update-view')
 
     def draw_line(self, color, start_pos, end_pos, width=1):
-        print("Draw line!")
         pygame.draw.line(self.screen, color, start_pos, end_pos, width)
         Kuai.emit('update-view')
 
     def draw_square(self, color, x, y, height, border=0):
-        print("Draw square!")
         height = 20
         pygame.draw.rect(self.screen, color, (x, y, height, height), border)
         Kuai.emit('update-view')
 
     def draw_point(self, color, x, y):
-        print("Draw point!")
         pygame.draw.rect(self.screen, color, (x, y, 1, 1))
         Kuai.emit('update-view')
