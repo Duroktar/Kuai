@@ -18,18 +18,13 @@ class Controller:
             for event in events:
                 if event.type == pygame.KEYDOWN:
                     if event.key == pygame.K_UP:
-                        print("Key!")
                         Kuai.emit('key-up', x, y)
                     if event.key == pygame.K_DOWN:
-                        print("Key!")
                         Kuai.emit('key-down', x, y)
                     if event.key == pygame.K_LEFT:
-                        print("Key!")
                         Kuai.emit('key-left', x, y)
                     if event.key == pygame.K_RIGHT:
-                        print("Key!")
                         Kuai.emit('key-right', x, y)
                     if event.key == pygame.K_ESCAPE:
-                        print("Key!")
                         Kuai.emit('key-escape')
                     pass
