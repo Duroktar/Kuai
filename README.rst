@@ -7,8 +7,8 @@ rapidness, to hurry up..
 .. image:: https://img.shields.io/pypi/v/kuai.svg
     :target: https://pypi.python.org/pypi/kuai
 
-.. image:: https://img.shields.io/travis/Duroktar/kuai.svg
-    :target: https://travis-ci.org/Duroktar/kuai
+.. image:: https://travis-ci.org/Duroktar/Kuai.svg?branch=master
+    :target: https://travis-ci.org/Duroktar/Kuai
 
 Simple & fast event library.
 
