@@ -19,19 +19,19 @@ Simple & fast event library.
 Install
 -------
 
-.. code-block:: python
+.. code-block:: bash
 
-    pip install Kuai --user
+    $ pip install Kuai --user
 
 
 Develop
 -------
 
-.. code-block::
+.. code-block:: bash
 
-    clone https://github.com/Duroktar/Kuai.git
-    cd Kuai
-    pip install -e .
+    $ clone https://github.com/Duroktar/Kuai.git
+    $ cd Kuai
+    $ pip install -e .
 
 
 Kuai is Fast
@@ -51,7 +51,7 @@ Save in a hello.py:
 
 It’s as easy as
 
-.. code-block::
+.. code-block:: bash
 
     $ pip install Kuai
     $ python hello.py
@@ -68,6 +68,14 @@ Author
 ------
 
 Scott Doucet / Duroktar / traBpUkciP
+
+
+Contributors
+------------
+
+Thank you to anyone who has helped contribute to Kuai in one form or another. If you submit any PR's don't forget to add your name to the list!
+
+xmonader - PR #2 Cleaned up handler definition
 
 
 History
