@@ -5,7 +5,7 @@ from kuai.backends import WeakCallback, Singleton, singleton_object
 
 @singleton_object
 class PriorityBackend(metaclass=Singleton):
-    handlers = handlers = defaultdict(list)
+    handlers = defaultdict(list)
 
     def addHandler(self, event, callback, priority=5):
         PriorityEvent = namedtuple("PriorityEvent", "priority callback")
