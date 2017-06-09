@@ -34,7 +34,7 @@ def confirm_exit(msg=None):
         print("Select y or n..")
     conf = input("Sure you want to exit?  n [y] $ ").lower() or 'y'
     if conf not in ['y', 'n']:
-        confirm_exit()
+        confirm_exit(msg=True)
     else:
         if conf == 'y':
             Kuai.emit('display-is-done')
