@@ -4,9 +4,9 @@ from kuai.backends import Manager, set_backend
 
 __author__ = """Scott Doucet"""
 __email__ = 'duroktar@gmail.com'
-__version__ = '0.1.1'
+__version__ = '0.1.2'
 __all__ = [
-    'Kuai',
+    'Kuai', 'Kuài', 'KuaiBase',
     'kuai_backend', 'set_backend'
 ]
 
