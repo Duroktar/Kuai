@@ -55,6 +55,3 @@ class ThreadedBackend(metaclass=Singleton):
 
 def setup(app):
     app.register_backend('threaded', ThreadedBackend)
-
-
-test = ThreadedBackend()
