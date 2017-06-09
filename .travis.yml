@@ -19,7 +19,7 @@ deploy:
       SnZzaXhITlZQcnlYVUl0YzlyMmVDWjBuTnFmelNQdmxxL0NZYTdYRVZGb0Flak1xYmtaNHVFVWc9
   true:
     condition: $TOXENV == py35
-    repo: Duroktar/kuai
+    repo: Duroktar/Kuai
     tags: true
 env:
  - TOXENV=py35
