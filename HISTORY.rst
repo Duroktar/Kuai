@@ -2,6 +2,13 @@
 History
 =======
 
+0.1.3 (2017-06-10)
+------------------
+
+* Added 'threadpool' backend
+* Fix error message on failed set_backend
+
+
 0.1.2 (2017-06-09)
 ------------------
 
