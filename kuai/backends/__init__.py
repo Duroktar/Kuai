@@ -41,15 +41,15 @@ class Manager(metaclass=Singleton):
         backend.setup(self)
 
     def register_backend(self, name, backend):
-        """A function a plugin can use to register a backend."""
         self._backends[name] = backend
 
     def set_backend(self, name='simple'):
         try:
             self._load_backend(name)
         except Exception as e:
-            print("Kuai: {} is not a valid backend.. "
-                  "Please select from,\n").format(name)
+            print(e)
+            print("Kuai: {} didn't work.. See error above. "
+                  "Please select from,\n".format(name))
             for each in self._source.list_plugins():
                 print(" - ", each)
             exit(1)

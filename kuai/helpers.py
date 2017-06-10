@@ -73,6 +73,14 @@ class WeakCallback(object):
         self.__wref = weakref.ref(obj, self.__object_deleted)
         self.__callback_attr = attr
 
+    def __hash__(self):
+        return hash(self.__wref)
+
+    def __eq__(self, other):
+        if not isinstance(other, WeakCallback):
+            return False
+        return hash(self) == hash(other)
+
     def __call__(self, *args, **kwargs):
         obj = self.__wref()
         if obj:
