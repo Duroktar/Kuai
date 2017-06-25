@@ -10,6 +10,10 @@ rapidness, to hurry up..
 .. image:: https://travis-ci.org/Duroktar/Kuai.svg?branch=master
     :target: https://travis-ci.org/Duroktar/Kuai
 
+.. image:: https://api.codacy.com/project/badge/Grade/7f5e7013a7a34c09bbdae2efc78cdfb6
+    :target: https://www.codacy.com/app/Duroktar/Kuai?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Duroktar/Kuai&amp;utm_campaign=
+
+
 Simple & fast event library.
 
 -  Free software: MIT license
