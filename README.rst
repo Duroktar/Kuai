@@ -1,6 +1,10 @@
 Kuài
 ====
 
+.. image:: https://api.codacy.com/project/badge/Grade/7f5e7013a7a34c09bbdae2efc78cdfb6
+   :alt: Codacy Badge
+   :target: https://www.codacy.com/app/Duroktar/Kuai?utm_source=github.com&utm_medium=referral&utm_content=Duroktar/Kuai&utm_campaign=badger
+
 */Ku·ài/* Fast, swift, swiftness, sharp, to be satisfied, quick, rapid,
 rapidness, to hurry up..
 
