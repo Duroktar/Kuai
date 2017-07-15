@@ -10,11 +10,11 @@ rapidness, to hurry up..
 .. image:: https://img.shields.io/travis/Duroktar/Kuai.svg?label=TravisCI
     :target: https://travis-ci.org/Duroktar/Kuai
 
-.. image:: https://api.codacy.com/project/badge/Grade/7f5e7013a7a34c09bbdae2efc78cdfb6
-    :target: https://www.codacy.com/app/Duroktar/Kuai?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Duroktar/Kuai&amp;utm_campaign=
-
 .. image:: https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser.svg?label=CircleCI
     :target: https://circleci.com/gh/Duroktar/Kuai
+
+.. image:: https://api.codacy.com/project/badge/Grade/7f5e7013a7a34c09bbdae2efc78cdfb6
+    :target: https://www.codacy.com/app/Duroktar/Kuai?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Duroktar/Kuai&amp;
 
 .. image:: https://img.shields.io/badge/Donate-Ko--fi-orange.svg
     :target: http://ko-fi.com/A5034CT
