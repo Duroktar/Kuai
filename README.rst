@@ -16,6 +16,9 @@ rapidness, to hurry up..
 .. image:: https://circleci.com/gh/Duroktar/Kuai.svg?style=svg
     :target: https://circleci.com/gh/Duroktar/Kuai
 
+.. image:: https://img.shields.io/badge/Donate-Ko--fi-orange.svg
+    :target: http://ko-fi.com/A5034CT
+
 Simple & fast event library.
 
 -  Free software: MIT license
@@ -70,15 +73,15 @@ License
 MIT
 
 
-Author
-------
-
-Scott Doucet / Duroktar / traBpUkciP
-
-
 Contributors
 ------------
 
 Thank you to anyone who has helped contribute to Kuai in one form or another. If you submit any PR's don't forget to add your name to the list!
 
 xmonader - PR #2 Cleaned up handler definition
+
+
+Author
+------
+
+Scott Doucet / Duroktar / traBpUkciP
